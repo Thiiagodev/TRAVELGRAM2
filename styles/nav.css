@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  /* displau flex para colocar uma do lado da outra */
+  justify-content: space-between;
+  /* space between colocar espaço entre os elementos*/
+
+  align-items: center;
+  /* centralizar todo o nav, mas ainda precisa centralizar o resto que compões o nav */
+
+  padding-block: 20px;
+  /* padding-block VAI OLHAR PARA O ESPEÇO DE CIMA E DE BAIXO PODE COLOR DOIS VALORES TIPO 20PX E 40PX SENDO O PRIMEIRO DE CIMA E O SEGUNDO DE BAIXO, COMO SÓ TEM UM VALOR, VAI SER COLOCADO EM BAIXO E ENCIMA*/
+}
+
+nav ul {
+  list-style: none;
+  /* list estyle para tirar as bolinhas que ficam na lista (exemplo: *Explore) */
+
+  display: flex;
+  /* displayflex para colocar uma do lado da outra */
+
+  align-items: center;
+  /* centralizando intens dentro da Li do NAV */
+
+  gap: 24px;
+  /* Colocar espaço entre eles, dentro da UL*/
+
+  padding-block: 8px;
+  /* Clocou um valor de 8px encima e embaixo na UL */
+}
+
+nav ul li:last-child img {
+  height: 40px;
+  /* largura*/
+
+  width: 40px;
+  /* altura */
+}

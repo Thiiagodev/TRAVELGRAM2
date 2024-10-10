@@ -27,3 +27,37 @@ body {
   color: var(--text-color-seconday);
   background-color: var(--background-color);
 }
+
+a {
+  text-decoration: none;
+  /* tirar tracinho de baixo do nome, quando tem links!*/
+
+  color: inherit;
+  /* vai herdar a cor do body, padrão é azul mas se alterar a cor padrão com variaveis, a cor herdada vai ser a setada na variavel*/
+}
+
+a:hover {
+  /* colocar efeito quando passar o mouse encima!*/
+
+  color: var(--brandcolor);
+  /* cor (vermelha, brand-color) que vai aprecer quando passar o mouse por cima*/
+}
+
+.container {
+  /* nome container pq ele vai contar: essa classe vai contar intens a nivel de projeto como um todo. */
+
+  padding-inline: 32px;
+  /* adiciona espaços na laterais, tipo uma margem, borda, margem no photoshop*/
+
+  max-width: 1280px;
+  /* define um tamanho padrão, de dminuição*/
+
+  margin-inline: auto;
+  /* mesma coisa do padding inline, altera apenas as laterais, nesse caso está automatica. */
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
+
+  /* foi adicionado uma div no nav para completar a cor de uma ponta a outra do site, em um canto especifico, foi usado apenas div e nav, dentro no nav temos ul e a com links dentro de li */
+}
