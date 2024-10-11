@@ -1,0 +1,64 @@
+header {
+  padding-block: 32px;
+  /* espeço delimitado encima e embaixo, margem! */
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile {
+  display: flex;
+  /* display flex coloando tudo um ao lado do oturo! */
+
+  gap: 32px;
+  /*define o espaçamento entre as linhas e colunas de um grid ou flexbox*/
+  align-items: center;
+}
+
+#profile > div {
+  max-width: 384px;
+  /* determinao tamanho maximo da div! aqui definimos o tamanho máximo do texto deacordo com o figma.  */
+}
+
+#profile h1 {
+  font: var(--text-lg);
+  /* adicionando a font popins */
+
+  color: var(--text-color-primary);
+  /* adicionando a cor do texto primeiro com a variavel */
+
+  margin-bottom: 8px;
+  /* margin de fundo, para dar espaço do nome dela pra descrição "bottom" fundo. */
+}
+
+#profile p {
+  font: var(--text-md);
+}
+
+#info {
+  list-style: none;
+  /* retirar bolinhas de listas */
+
+  display: flex;
+  /* para ficar um ao lado do outro */
+
+  flex-direction: column;
+  /* utilizei o display flex para ficar um ao lado do outro de logo após coloquei flex direction colum para ficar um embaixo do outro. */
+
+  gap: 16px;
+  /* gap coloca espaço entre linhas */
+}
+
+#info li {
+  display: flex;
+  /* selecinando as listas para centrlizar uma do lado da outra com displayflex */
+
+  align-items: center;
+  /* centralizando o que já tava centralizado */
+
+  gap: 8px;
+  /* colocando espaço entre o ícone e o nome do icone! na lista */
+}
