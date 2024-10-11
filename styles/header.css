@@ -1,6 +1,8 @@
 header {
   padding-block: 32px;
   /* espeço delimitado encima e embaixo, margem! */
+
+  font: var(--text-md);
 }
 
 header .container {
@@ -32,10 +34,6 @@ header .container {
 
   margin-bottom: 8px;
   /* margin de fundo, para dar espaço do nome dela pra descrição "bottom" fundo. */
-}
-
-#profile p {
-  font: var(--text-md);
 }
 
 #info {

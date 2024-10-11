@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  /* colocar as imagens uma ao lado da outra */
+
+  flex-wrap: wrap;
+  /* colocar as imagens uma a uma dentro do espço do site */
+
+  gap: 24px;
+  /* espaço entre linhas */
+
+  padding-block: 24px;
+}
+
+main img {
+  width: 286px;
+  /* largua da imagem */
+
+  height: 286px;
+  /* altura da imagem */
+
+  object-fit: cover;
+  /* Caso as fotos não estejam em um quadrado perfeitio, colocar object-fit cover para deixar todas iguais */
+}
